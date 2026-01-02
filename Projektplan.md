@@ -19,19 +19,118 @@ Planung und Implementierung einer Client-Server-Netzwerkinfrastruktur für ein m
 
 ### Phase 1: Planung und Recherche (ca. 20 Std.)
 
-#### Aufgaben:
-- [ ] Anforderungen aus Lastenheft analysieren
-- [ ] Technische Recherche zu Hypervisor-Lösungen (Proxmox VE, VMware ESXi)
-- [ ] NAS-Systeme vergleichen (TrueNAS, OpenMediaVault)
-- [ ] Firewall-Lösungen recherchieren (pfSense, OPNsense)
-- [ ] Netzwerkarchitektur-Konzepte studieren (VLAN, Routing, Security)
-- [ ] Hardware-Anforderungen definieren
-- [ ] Software-Lizenzen prüfen (Open Source vs. kommerziell)
+#### 1.1 Anforderungsanalyse (3 Std.)
+- [ ] Lastenheft vollständig durcharbeiten
+- [ ] Pflichtenheft analysieren
+- [ ] Ausgangssituation dokumentieren
+- [ ] Funktionale Anforderungen auflisten
+- [ ] Nicht-funktionale Anforderungen auflisten (Performance, Sicherheit, Skalierbarkeit)
+- [ ] Abnahmekriterien verstehen
+- [ ] Offene Fragen identifizieren und klären
+
+#### 1.2 Hypervisor-Recherche (4 Std.)
+- [ ] Proxmox VE recherchieren:
+  - [ ] Features und Funktionen
+  - [ ] Systemanforderungen
+  - [ ] Installation und Konfiguration
+  - [ ] Management-Interfaces (Web-GUI, CLI)
+  - [ ] Virtualisierungstechnologien (KVM, LXC)
+  - [ ] Backup-Funktionen
+- [ ] VMware ESXi recherchieren:
+  - [ ] Features und Funktionen
+  - [ ] Lizenzmodell (kostenlos vs. kommerziell)
+  - [ ] Systemanforderungen
+- [ ] Vergleich erstellen:
+  - [ ] Vor- und Nachteile
+  - [ ] Eignung für Projekt
+  - [ ] Entscheidung dokumentieren
+
+#### 1.3 NAS-System-Recherche (3 Std.)
+- [ ] TrueNAS Core recherchieren:
+  - [ ] Features (ZFS, Snapshots, Replikation)
+  - [ ] Systemanforderungen
+  - [ ] Protokolle (NFS, SMB/CIFS, iSCSI)
+  - [ ] RAID-Unterstützung
+  - [ ] Web-Interface
+- [ ] OpenMediaVault recherchieren:
+  - [ ] Features und Funktionen
+  - [ ] Systemanforderungen
+  - [ ] Plugin-System
+- [ ] Vergleich erstellen:
+  - [ ] Vor- und Nachteile
+  - [ ] Eignung für Projekt
+  - [ ] Entscheidung dokumentieren
+
+#### 1.4 Firewall-Lösungen-Recherche (3 Std.)
+- [ ] pfSense recherchieren:
+  - [ ] Features (Firewall, NAT, VPN, Routing)
+  - [ ] Systemanforderungen
+  - [ ] Installation und Konfiguration
+  - [ ] Web-Interface
+  - [ ] Regelwerk-Konzepte
+- [ ] OPNsense recherchieren:
+  - [ ] Features und Unterschiede zu pfSense
+  - [ ] Systemanforderungen
+  - [ ] Benutzerfreundlichkeit
+- [ ] Vergleich erstellen:
+  - [ ] Vor- und Nachteile
+  - [ ] Eignung für Projekt
+  - [ ] Entscheidung dokumentieren
+
+#### 1.5 Netzwerkarchitektur-Konzepte (4 Std.)
+- [ ] VLAN-Konzepte studieren:
+  - [ ] Was sind VLANs?
+  - [ ] Tagged vs. Untagged Ports
+  - [ ] Trunk-Ports
+  - [ ] Best Practices für VLAN-Design
+- [ ] Routing-Konzepte studieren:
+  - [ ] Inter-VLAN-Routing
+  - [ ] Routing-Protokolle
+  - [ ] Gateway-Konfiguration
+- [ ] Sicherheitskonzepte studieren:
+  - [ ] Netzwerksegmentierung
+  - [ ] Firewall-Regeln
+  - [ ] Zugriffskontrolle
+  - [ ] Least-Privilege-Prinzip
+- [ ] Dokumentation der Konzepte für Projekt
+
+#### 1.6 Hardware-Anforderungen definieren (2 Std.)
+- [ ] Hypervisor-Server:
+  - [ ] CPU-Anforderungen (Kerne, Virtualisierung-Unterstützung)
+  - [ ] RAM-Anforderungen (für Host + VMs)
+  - [ ] Storage-Anforderungen (System + VM-Storage)
+  - [ ] Netzwerk-Interfaces (Anzahl, Geschwindigkeit)
+- [ ] NAS-System:
+  - [ ] CPU-Anforderungen
+  - [ ] RAM-Anforderungen
+  - [ ] Storage-Anforderungen (Festplatten, RAID)
+  - [ ] Netzwerk-Interfaces
+- [ ] Router/Switch:
+  - [ ] VLAN-Unterstützung
+  - [ ] Port-Anzahl
+  - [ ] Geschwindigkeit (Gigabit)
+  - [ ] Management-Funktionen
+- [ ] Hardware-Spezifikationen dokumentieren
+
+#### 1.7 Software-Lizenzen prüfen (1 Std.)
+- [ ] Open Source Lösungen identifizieren:
+  - [ ] Proxmox VE (Lizenz prüfen)
+  - [ ] TrueNAS Core (Lizenz prüfen)
+  - [ ] pfSense/OPNsense (Lizenz prüfen)
+  - [ ] Linux-Distributionen für VMs
+- [ ] Kommerzielle Alternativen prüfen:
+  - [ ] Kosten für VMware ESXi
+  - [ ] Kosten für kommerzielle NAS-Lösungen
+- [ ] Entscheidung für Open Source begründen
+- [ ] Lizenzübersicht dokumentieren
 
 #### Deliverables:
-- Recherche-Dokumentation
-- Technologie-Vergleich
+- Anforderungsanalyse-Dokument
+- Recherche-Dokumentation (Hypervisor, NAS, Firewall)
+- Technologie-Vergleich mit Entscheidungsmatrix
 - Hardware-Spezifikationen
+- Netzwerkarchitektur-Konzepte-Dokumentation
+- Lizenzübersicht
 
 ---
 
