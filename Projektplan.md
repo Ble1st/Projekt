@@ -19,14 +19,14 @@ Planung und Implementierung einer Client-Server-Netzwerkinfrastruktur für ein m
 
 ### Phase 1: Planung und Recherche (ca. 20 Std.)
 
-#### 1.1 Anforderungsanalyse (3 Std.)
-- [ ] Lastenheft vollständig durcharbeiten
-- [ ] Pflichtenheft analysieren
-- [ ] Ausgangssituation dokumentieren
-- [ ] Funktionale Anforderungen auflisten
-- [ ] Nicht-funktionale Anforderungen auflisten (Performance, Sicherheit, Skalierbarkeit)
-- [ ] Abnahmekriterien verstehen
-- [ ] Offene Fragen identifizieren und klären
+#### 1.1 Anforderungsanalyse (3 Std.) (erledigt)
+- [x] Lastenheft vollständig durcharbeiten
+- [x] Pflichtenheft analysieren
+- [x] Ausgangssituation dokumentieren
+- [x] Funktionale Anforderungen auflisten
+- [x] Nicht-funktionale Anforderungen auflisten (Performance, Sicherheit, Skalierbarkeit)
+- [x] Abnahmekriterien verstehen
+- [x] Offene Fragen identifizieren und klären
 
 #### 1.2 Hypervisor-Recherche (4 Std.)
 - [ ] Proxmox VE recherchieren:
